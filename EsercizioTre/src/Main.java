@@ -37,7 +37,7 @@ public class Main {
         // Calcola e stampa il perimetro del triangolo
         double perimetroTriangolo = perimetroTriangolo(paramTr1, paramTr2, paramTr3);
         System.out.println("Perimetro del triangolo: " + perimetroTriangolo);
-
+        scanner.close();
     }
 
     public static double perimetroRettangolo(double param1, double param2) {
