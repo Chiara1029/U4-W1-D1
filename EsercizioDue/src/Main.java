@@ -18,6 +18,7 @@ public class Main {
 
         String reverseOrder = string3 + string2 + string1;
         System.out.println("Ordine inverso: " + reverseOrder);
+        scanner.close();
     }
 
 }
